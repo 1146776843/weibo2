@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	</head>
+	<body>
+	<div class="boss">
+ <div class="bigimg">
+  <img src="img/cxk.jpg" height="350" width="350" id="spic"> 
+  <div id="mask"></div>
+ </div>
+ <div class="xia"> <a class="prev"><</a> <a class="next">></a>
+  <div class="items">
+  <ul>
+   <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  <li><img src="img/cxk.jpg" height="56" width="56"></li>
+  </ul>
+  </div>
+ </div>
+ <div class="zoom">
+  <img src="img/cxk.jpg" id="bpic">
+ </div>
+</div>
+
+
+	</body>
+	<script src="js/jquery.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script>
+		function showimage(source)
+
+     {
+
+         $("#ShowImage_Form").find("#img_show").html("<image src='"+source+"' class='carousel-inner img-responsive img-rounded' />");
+
+         $("#ShowImage_Form").modal();
+
+     }
+	</script>
+</html>

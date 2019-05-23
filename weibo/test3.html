@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="button" value="新增" id="add" />
+<ul class="UL"></ul>
+	</body>
+	<script src="js/jquery.js"></script>
+	<script>
+		$(function(){
+			$("#add").click(function(){
+   var html ='<li><input type="text" value="请输入内容" /></li>'+
+   '<li><input type="text" value="请输入内容" /></li>';
+    $(".UL").append(html);
+});
+		})
+	</script>
+</html>
